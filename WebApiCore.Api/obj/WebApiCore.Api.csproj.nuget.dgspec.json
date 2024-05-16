@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "..\\WebApiCore.Data\\WebApiCore.Data.csproj": {
+              "target": "Package",
+              "version": "(, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.5, )"
